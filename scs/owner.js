@@ -1,10 +1,10 @@
 
 
-const { adams } = require("../Ibrahim/adams");
+const { 𝐛𝐚𝐫𝐚𝐜𝐤 } = require("../𝐁𝐚𝐫𝐚𝐜𝐤/𝐨𝐛𝐚𝐦𝐚");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../lib/sudo")
 const conf = require("../config");
 
-adams({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+𝐛𝐚𝐫𝐚𝐜𝐤({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -53,13 +53,13 @@ adams({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, 
   }
 });
 
-adams({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+𝐛𝐚𝐫𝐚𝐜𝐤({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: " Mr Ibrahim adams", numero: "254710772666" },
-      { nom: "᚛Sir Ibrahim Adams᚜", numero: "254739937062" },
-      { nom: "Mr Adams", numero: "254739937062" },
+      { nom: " 𝐁𝐚𝐫𝐚𝐜𝐤 𝐎𝐛𝐚𝐦𝐚", numero: "254717261760" },
+      { nom: "᚛𝐁𝐚𝐫𝐚𝐜𝐤 𝐎𝐛𝐚𝐦𝐚᚜", numero: "254717261760" },
+      { nom: "🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎", numero: "254717261760" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -94,7 +94,7 @@ else {
 }
 });
 
-adams({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+𝐛𝐚𝐫𝐚𝐜𝐤({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("THANK YOU FOR CHOOSING BMW, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔") 
